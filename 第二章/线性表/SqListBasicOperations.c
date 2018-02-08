@@ -62,4 +62,109 @@ Status GetElem(SqList L,int i,ElemType *e){
 	return OK;
 }
 
-//
+//返回L中第1个与e满足关系compare()的数据元素的位序
+int LocateElem(SqList L,ElemType e,Status(*compare)(ElemType,ElemType)){
+	ElemType *p;
+	int i = 1;
+	p =  L.elem;
+	while(i<=L.length && !compare(*p++,e)){
+		++i;
+	}
+	if(i<=L.length){
+		return i;
+	}
+	return 0;
+}
+
+//返回L的数据元素的前驱
+Status PriorElem(SqList L,ElemType cur_e,ElemType *pre_e){
+	int i = 2;
+	ElemType *p = L.elem + 1;
+	while(i<=L.length && *p!=cur_e){
+		p++;
+		i++;
+	}
+	if (i>L.length)
+	{
+		return INFEASIBLE;
+	}else｛
+		*pre_e = *--p;
+		return OK;
+	｝
+}
+
+//返回L的数据元素的后继
+Status NextElem(SqList L,ElemType cur_e,ElemType *next_e){
+	int i = 1;
+	ElemType *p = L.elem;
+	while(i<L.length && *P!=cur_e){
+		i++;
+		p++;
+	}
+	if (i == L.length)
+	{
+		return INFEASIBLE;
+	}else{
+		*next_e = *++p;
+		return OK;
+	}
+}
+
+//在L中第i个位置之前插入新的数据元素e，表长+1
+Status ListInsert(SqList *L, int i, ElemType e){
+	ElemType *newbase, *p, *q;
+	if (i<1||i>(*L).length+1)
+	{
+		return ERROR;
+	}
+	if ((*L).length>=(*L).listsize)
+	{
+		newbase = (ElemType *)malloc((*L).elem,((*L).listsize+LISTINCREMENT)*sizeof(ElemType));
+		if (!newbase)
+		{
+			exit(OVERFLOW);
+		}
+		(*L).elem = newbase;
+		(*L).listsize += LISTINCREMENT;
+	}
+	q = (*L).elem+i-1;
+	for (p=(*L).elem+(*L).length-1; p>=q; --p)
+	{
+		*(p+1)=*p;
+	}
+	*q = e;
+	++(*L).length;
+	return OK;
+}
+
+//删除L中的第i个数据元素，并用e返回其值，L的长度减1
+Status ListDelete(SqList *L,int i,ElemType *e){
+	ElemType *p, *q;
+	if (i<1||i>(*L).length)
+	{
+		return ERROR;
+	}
+	p = (*L).elem+i-1;
+	*e = *p;
+	q= (*L).elem + (*L).length-1;
+	for (++p; p<= q; ++p)
+	{
+		*(p-1) = *p;
+	}
+	(*L).length--;
+	return OK;
+}
+
+/* 初始条件：顺序线性表L已存在 */
+/* 操作结果：依次对L的每个数据元素调用函数vi()。一旦vi()失败，则操作失败 */
+/*           vi()的形参加'&'，表明可通过调用vi()改变元素的值 */
+ Status ListTraverse(SqList L,void(*vi)(ElemType*))
+ { 
+   ElemType *p;
+   int i;
+   p=L.elem;
+   for(i=1;i<=L.length;i++)
+     vi(p++);
+   printf("\n");
+   return OK;
+ }
