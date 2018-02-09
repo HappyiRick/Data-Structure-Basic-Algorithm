@@ -204,6 +204,10 @@ void print(ElemType *e) {
 	printf("%d", *e);
 }
 
+/*
+	预期输入：La = 12345 Lb = 245810
+	预期结果：new La = 123456810
+*/
 int main(void) {
 	SqList La, Lb;
 	Status i;
