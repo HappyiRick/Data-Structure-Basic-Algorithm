@@ -212,6 +212,47 @@ void print(ElemType *c) {
 }
 
 /*
+//另一种合并线性表的方法（根据算法2.7下的要求修改算法2.7）
+int comp(ElemType c1,ElemType c2)
+{
+	int i;
+	if(c1<c2)
+		i=1;
+	else if(c1==c2)
+		i=0;
+	else
+		i=-1;
+	return i;
+}
+
+void MergeList(SqList La,SqList Lb,SqList *Lc)
+{   
+	ElemType  *pa, *pa_last, *pb, *pb_last, *pc;
+	pa = La.elem;
+	pb = Lb.elem;
+	(*Lc).listsize = La.length + Lb.length; //此句与算法2.7不同 
+	pc = (*Lc).elem = (ElemType *)malloc((*Lc).listsize * sizeof(ElemType));
+	if (!(*Lc).elem)
+		exit(OVERFLOW);
+	pa_last = La.elem + La.length - 1;
+	pb_last = Lb.elem + Lb.length - 1;
+	while (pa <= pa_last && pb <= pb_last)
+		switch (comp(*pa, *pb)) // 此句与算法2.7不同 
+			{
+			case  0: pb++;
+			case  1: *pc++ = *pa++;
+				break;
+			case -1: *pc++ = *pb++;
+			}
+	while (pa <= pa_last)
+		*pc++ = *pa++;
+	while (pb <= pb_last) 
+		*pc++ = *pb++;
+	(*Lc).length = pc - (*Lc).elem; //加此句 
+ }
+*/
+
+/*
 	预期输入：La = ｛3，5，8，11｝
 			  Lb = ｛2，6，8，9，11，15，20｝
 	预期输出：La = 35811
