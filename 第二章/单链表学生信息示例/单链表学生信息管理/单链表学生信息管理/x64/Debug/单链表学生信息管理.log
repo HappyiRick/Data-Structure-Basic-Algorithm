@@ -1,0 +1,45 @@
+﻿  单链表学生信息.c
+f:\git_repository\data-structure-basic-algorithm\第二章\单链表学生信息示例\单链表学生信息管理\单链表学生信息管理\predefine.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\git_repository\data-structure-basic-algorithm\第二章\单链表学生信息示例\单链表学生信息管理\单链表学生信息管理\单链表学生信息.c(75): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+f:\git_repository\data-structure-basic-algorithm\第二章\单链表学生信息示例\单链表学生信息管理\单链表学生信息管理\单链表学生信息.c(77): warning C4477: “scanf”: 格式字符串“%ld”需要类型“long *”的参数，但可变参数 1 拥有了类型“char (*)[9]”
+  f:\git_repository\data-structure-basic-algorithm\第二章\单链表学生信息示例\单链表学生信息管理\单链表学生信息管理\单链表学生信息.c(77): note: 请考虑在格式字符串中使用“%hhd”
+f:\git_repository\data-structure-basic-algorithm\第二章\单链表学生信息示例\单链表学生信息管理\单链表学生信息管理\单链表学生信息.c(77): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+f:\git_repository\data-structure-basic-algorithm\第二章\单链表学生信息示例\单链表学生信息管理\单链表学生信息管理\单链表学生信息.c(79): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+f:\git_repository\data-structure-basic-algorithm\第二章\单链表学生信息示例\单链表学生信息管理\单链表学生信息管理\单链表学生信息.c(81): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+f:\git_repository\data-structure-basic-algorithm\第二章\单链表学生信息示例\单链表学生信息管理\单链表学生信息管理\单链表学生信息.c(83): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+f:\git_repository\data-structure-basic-algorithm\第二章\单链表学生信息示例\单链表学生信息管理\单链表学生信息管理\单链表学生信息.c(85): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+f:\git_repository\data-structure-basic-algorithm\第二章\单链表学生信息示例\单链表学生信息管理\单链表学生信息管理\单链表学生信息.c(94): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+f:\git_repository\data-structure-basic-algorithm\第二章\单链表学生信息示例\单链表学生信息管理\单链表学生信息管理\单链表学生信息.c(164): warning C4013: “gets”未定义；假设外部返回 int
+f:\git_repository\data-structure-basic-algorithm\第二章\单链表学生信息示例\单链表学生信息管理\单链表学生信息管理\单链表学生信息.c(167): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 参见“strcpy”的声明
+f:\git_repository\data-structure-basic-algorithm\第二章\单链表学生信息示例\单链表学生信息管理\单链表学生信息管理\单链表学生信息.c(185): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 参见“strcpy”的声明
+f:\git_repository\data-structure-basic-algorithm\第二章\单链表学生信息示例\单链表学生信息管理\单链表学生信息管理\单链表学生信息.c(224): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+f:\git_repository\data-structure-basic-algorithm\第二章\单链表学生信息示例\单链表学生信息管理\单链表学生信息管理\单链表学生信息.c(234): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+f:\git_repository\data-structure-basic-algorithm\第二章\单链表学生信息示例\单链表学生信息管理\单链表学生信息管理\单链表学生信息.c(235): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+f:\git_repository\data-structure-basic-algorithm\第二章\单链表学生信息示例\单链表学生信息管理\单链表学生信息管理\单链表学生信息.c(253): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+f:\git_repository\data-structure-basic-algorithm\第二章\单链表学生信息示例\单链表学生信息管理\单链表学生信息管理\单链表学生信息.c(261): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+f:\git_repository\data-structure-basic-algorithm\第二章\单链表学生信息示例\单链表学生信息管理\单链表学生信息管理\单链表学生信息.c(269): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+f:\git_repository\data-structure-basic-algorithm\第二章\单链表学生信息示例\单链表学生信息管理\单链表学生信息管理\单链表学生信息.c(286): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+f:\git_repository\data-structure-basic-algorithm\第二章\单链表学生信息示例\单链表学生信息管理\单链表学生信息管理\单链表学生信息.c(304): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+f:\git_repository\data-structure-basic-algorithm\第二章\单链表学生信息示例\单链表学生信息管理\单链表学生信息管理\单链表学生信息.c(315): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+f:\git_repository\data-structure-basic-algorithm\第二章\单链表学生信息示例\单链表学生信息管理\单链表学生信息管理\单链表学生信息.c(329): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+f:\git_repository\data-structure-basic-algorithm\第二章\单链表学生信息示例\单链表学生信息管理\单链表学生信息管理\单链表学生信息.c(330): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+  单链表学生信息管理.vcxproj -> F:\Git_Repository\Data-Structure-Basic-Algorithm\第二章\单链表学生信息示例\单链表学生信息管理\x64\Debug\单链表学生信息管理.exe
