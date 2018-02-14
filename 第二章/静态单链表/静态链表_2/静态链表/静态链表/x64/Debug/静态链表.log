@@ -1,0 +1,11 @@
+﻿  静态链表.c
+f:\git_repository\data-structure-basic-algorithm\第二章\静态单链表\静态链表_2\静态链表\静态链表\predefine.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\git_repository\data-structure-basic-algorithm\第二章\静态单链表\静态链表_2\静态链表\静态链表\静态链表.c(219): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+f:\git_repository\data-structure-basic-algorithm\第二章\静态单链表\静态链表_2\静态链表\静态链表\静态链表.c(223): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+f:\git_repository\data-structure-basic-algorithm\第二章\静态单链表\静态链表_2\静态链表\静态链表\静态链表.c(226): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+f:\git_repository\data-structure-basic-algorithm\第二章\静态单链表\静态链表_2\静态链表\静态链表\静态链表.c(230): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+  静态链表.vcxproj -> F:\Git_Repository\Data-Structure-Basic-Algorithm\第二章\静态单链表\静态链表_2\静态链表\x64\Debug\静态链表.exe

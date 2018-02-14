@@ -159,7 +159,7 @@ Status ListInsert(SLinkList L,int n,int i, ElemType e) {
 	if (j)/* 申请成功 */
 	{
 		L[j].data = e;/* 赋值给新单元 */
-		for (l = 0; l < i; l++)/* 移动i-1个元素 */
+		for (l = 1; l < i; l++)/* 移动i-1个元素 */
 		{
 			k = L[k].cur;
 		}
@@ -177,7 +177,7 @@ Status ListDelete(SLinkList L,int n,int i,ElemType *e) {
 	{
 		return ERROR;
 	}
-	for ( j = 01; j < i; j++)//移动i-1个元素
+	for ( j = 1; j < i; j++)//移动i-1个元素
 	{
 		k = L[k].cur;
 	}
