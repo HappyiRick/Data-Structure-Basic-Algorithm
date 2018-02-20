@@ -1,0 +1,6 @@
+﻿  数制转换.c
+e:\git_repository\data-structure-basic-algorithm\第三章\数制转换\数制转换\predefine.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\git_repository\data-structure-basic-algorithm\第三章\数制转换\数制转换\数制转换.c(47): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+e:\git_repository\data-structure-basic-algorithm\第三章\数制转换\数制转换\数制转换.c(100): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+  数制转换.vcxproj -> E:\Git_Repository\Data-Structure-Basic-Algorithm\第三章\数制转换\x64\Debug\数制转换.exe
