@@ -91,13 +91,10 @@ Status StackTraverse(SqStack S,Status (*visit)(SElemType)){
 	return OK;
 }
 
-void conversion() {
+void conversion8(unsigned n) {
 	SqStack s;
-	unsigned n;
 	SElemType e;
 	InitStack(&s);
-	printf("n(>=0)=");
-	scanf("%u",&n);
 	while (n)
 	{
 		Push(&s,n%8);
@@ -111,7 +108,37 @@ void conversion() {
 	printf("\n");
 }
 
+void conversion16(unsigned n)
+{ /* 对于输入的任意一个非负10进制整数，打印输出与其等值的16进制数 */
+	SqStack s;
+	 /* 非负整数 */
+	SElemType e;
+	InitStack(&s); /* 初始化栈 */
+	/* 输入非负十进制整数n */
+	while (n) /* 当n不等于0 */
+	{
+		Push(&s, n % 16); /* 入栈n除以16的余数(16进制的低位) */
+		n = n / 16;
+	}
+	while (!StackEmpty(s)) /* 当栈不空 */
+	{
+		Pop(&s, &e); /* 弹出栈顶元素且赋值给e */
+		if (e <= 9)
+			printf("%d", e);
+		else
+			printf("%c", e + 55);
+	}
+	printf("\n");
+}
+
+
 void main() {
-	conversion();
+	unsigned n;
+	printf("n(>=0)=");
+	scanf("%u", &n);
+	printf("\n八进制：");
+	conversion8(n);
+	printf("\n十六进制：");
+	conversion16(n);
 	system("pause");
 }
