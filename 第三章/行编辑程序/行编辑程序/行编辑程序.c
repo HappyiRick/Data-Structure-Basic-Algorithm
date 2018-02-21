@@ -1,4 +1,3 @@
-//本段代码逻辑上没有问题 然而在实际运行中出现了无法识别左括号进行压栈的情况 尚未解决
 #include "predefine.h"
 typedef char SElemType;
 #define STACK_INIT_SIZE 10
