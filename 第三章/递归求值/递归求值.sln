@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "递归求值", "递归求值\递归求值.vcxproj", "{AB8D898C-6D94-4A5C-A094-9792AABFB428}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB8D898C-6D94-4A5C-A094-9792AABFB428}.Debug|x64.ActiveCfg = Debug|x64
+		{AB8D898C-6D94-4A5C-A094-9792AABFB428}.Debug|x64.Build.0 = Debug|x64
+		{AB8D898C-6D94-4A5C-A094-9792AABFB428}.Debug|x86.ActiveCfg = Debug|Win32
+		{AB8D898C-6D94-4A5C-A094-9792AABFB428}.Debug|x86.Build.0 = Debug|Win32
+		{AB8D898C-6D94-4A5C-A094-9792AABFB428}.Release|x64.ActiveCfg = Release|x64
+		{AB8D898C-6D94-4A5C-A094-9792AABFB428}.Release|x64.Build.0 = Release|x64
+		{AB8D898C-6D94-4A5C-A094-9792AABFB428}.Release|x86.ActiveCfg = Release|Win32
+		{AB8D898C-6D94-4A5C-A094-9792AABFB428}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A9D80AD-791E-48E7-83F2-A2F5674A1AA2}
+	EndGlobalSection
+EndGlobal

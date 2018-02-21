@@ -1,0 +1,5 @@
+﻿  递归求值.c
+e:\git_repository\data-structure-basic-algorithm\第三章\递归求值\递归求值\递归求值.c(21): warning C4013: “system”未定义；假设外部返回 int
+e:\git_repository\data-structure-basic-algorithm\第三章\递归求值\递归求值\递归求值.c(19): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+  递归求值.vcxproj -> E:\Git_Repository\Data-Structure-Basic-Algorithm\第三章\递归求值\x64\Debug\递归求值.exe
