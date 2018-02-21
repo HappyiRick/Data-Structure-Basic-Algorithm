@@ -1,0 +1,14 @@
+﻿  迷宫求解.c
+e:\git_repository\data-structure-basic-algorithm\第三章\迷宫求解\迷宫求解\predefine.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\git_repository\data-structure-basic-algorithm\第三章\迷宫求解\迷宫求解\迷宫求解.c(65): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+e:\git_repository\data-structure-basic-algorithm\第三章\迷宫求解\迷宫求解\迷宫求解.c(202): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+e:\git_repository\data-structure-basic-algorithm\第三章\迷宫求解\迷宫求解\迷宫求解.c(221): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+e:\git_repository\data-structure-basic-algorithm\第三章\迷宫求解\迷宫求解\迷宫求解.c(225): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+e:\git_repository\data-structure-basic-algorithm\第三章\迷宫求解\迷宫求解\迷宫求解.c(231): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+e:\git_repository\data-structure-basic-algorithm\第三章\迷宫求解\迷宫求解\迷宫求解.c(233): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+  迷宫求解.vcxproj -> E:\Git_Repository\Data-Structure-Basic-Algorithm\第三章\迷宫求解\x64\Debug\迷宫求解.exe
