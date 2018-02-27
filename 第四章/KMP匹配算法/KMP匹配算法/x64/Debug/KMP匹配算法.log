@@ -1,0 +1,4 @@
+﻿  KMP匹配算法.c
+e:\git_repository\data-structure-basic-algorithm\第四章\kmp匹配算法\kmp匹配算法\predefine.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\git_repository\data-structure-basic-algorithm\第四章\kmp匹配算法\kmp匹配算法\kmp匹配算法.c(14): warning C4267: “=”: 从“size_t”转换到“char”，可能丢失数据
+  KMP匹配算法.vcxproj -> E:\Git_Repository\Data-Structure-Basic-Algorithm\第四章\KMP匹配算法\x64\Debug\KMP匹配算法.exe
