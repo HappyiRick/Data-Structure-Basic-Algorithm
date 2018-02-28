@@ -1,0 +1,20 @@
+﻿  查询图书.c
+e:\git_repository\data-structure-basic-algorithm\第四章\查询图书\查询图书\predefine.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\git_repository\data-structure-basic-algorithm\第四章\查询图书\查询图书\查询图书.c(310): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\git_repository\data-structure-basic-algorithm\第四章\查询图书\查询图书\查询图书.c(547): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+e:\git_repository\data-structure-basic-algorithm\第四章\查询图书\查询图书\查询图书.c(550): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: 参见“fscanf”的声明
+e:\git_repository\data-structure-basic-algorithm\第四章\查询图书\查询图书\查询图书.c(553): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: 参见“fscanf”的声明
+e:\git_repository\data-structure-basic-algorithm\第四章\查询图书\查询图书\查询图书.c(560): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: 参见“fscanf”的声明
+e:\git_repository\data-structure-basic-algorithm\第四章\查询图书\查询图书\查询图书.c(563): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1195): note: 参见“fscanf”的声明
+e:\git_repository\data-structure-basic-algorithm\第四章\查询图书\查询图书\查询图书.c(571): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+e:\git_repository\data-structure-basic-algorithm\第四章\查询图书\查询图书\查询图书.c(579): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 参见“strcpy”的声明
+e:\git_repository\data-structure-basic-algorithm\第四章\查询图书\查询图书\查询图书.c(584): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+  查询图书.vcxproj -> E:\Git_Repository\Data-Structure-Basic-Algorithm\第四章\查询图书\x64\Debug\查询图书.exe
