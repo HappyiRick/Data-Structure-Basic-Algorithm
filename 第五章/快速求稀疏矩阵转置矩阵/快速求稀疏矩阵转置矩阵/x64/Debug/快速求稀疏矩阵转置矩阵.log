@@ -1,0 +1,8 @@
+﻿  快速求稀疏矩阵转置矩阵.c
+e:\git_repository\data-structure-basic-algorithm\第五章\快速求稀疏矩阵转置矩阵\快速求稀疏矩阵转置矩阵\predefine.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\git_repository\data-structure-basic-algorithm\第五章\快速求稀疏矩阵转置矩阵\快速求稀疏矩阵转置矩阵\快速求稀疏矩阵转置矩阵.c(21): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+e:\git_repository\data-structure-basic-algorithm\第五章\快速求稀疏矩阵转置矩阵\快速求稀疏矩阵转置矩阵\快速求稀疏矩阵转置矩阵.c(28): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 参见“scanf”的声明
+e:\git_repository\data-structure-basic-algorithm\第五章\快速求稀疏矩阵转置矩阵\快速求稀疏矩阵转置矩阵\快速求稀疏矩阵转置矩阵.c(148): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+  快速求稀疏矩阵转置矩阵.vcxproj -> E:\Git_Repository\Data-Structure-Basic-Algorithm\第五章\快速求稀疏矩阵转置矩阵\x64\Debug\快速求稀疏矩阵转置矩阵.exe
